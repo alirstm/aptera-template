@@ -1,15 +1,17 @@
-semi: false
-singleQuote: false
-trailingComma: "all"
-tabWidth: 2
-printWidth: 100
-endOfLine: "lf"
-bracketSameLine: true
-overrides:
-  - files:
-      - "**/*.js"
-      - "**/*.jsx"
-      - "**/*.ts"
-      - "**/*.tsx"
-    options:
-      singleQuote: true
+{
+  "semi": false,
+  "singleQuote": false,
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "printWidth": 100,
+  "endOfLine": "lf",
+  "bracketSameLine": true,
+  "overrides": [
+    {
+      "files": ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"],
+      "options": {
+        "singleQuote": true
+      }
+    }
+  ]
+}
